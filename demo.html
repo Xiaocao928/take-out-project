@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        button{
+            background-color: orange;
+            color: white;
+            width: 118px;
+            height: 55px;
+            margin-left: 200px;
+            margin-top: 200px;
+            /* overflow: hidden; */
+            position: relative;
+        }
+        button::after{
+            width: 150%;
+            height: 300%;
+            content: '';
+            background-color: #fff;
+            display: block;
+            transform: skewY(25deg) translate(-21px,-244px);
+            transition: all .5s ease;
+            /* 绝对定位可以让元素浮出文档 */
+            position: absolute;
+        } 
+         button:hover::after{
+            transform: skewY(25deg) translate(-23px,-83px);
+        }
+        button:hover{
+            color:orange
+        }
+        button::before{
+            content: '点我购买';
+            width: 100%;
+            height: 100%;
+            display: none;
+            position: absolute;
+        }
+        button:hover::before{
+            display: block;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <button>点我购买</button>
+</body>
+</html>

@@ -1,0 +1,38 @@
+:root {
+    /* 颜色相关样式 */
+    /* 本项目中的颜色模式采用hsl 可以理解为和RGB类似 3个参数分别表示色相 饱和度 和明度 一般由设计师决定 */
+    --sonic-silver: hsl(0, 0%, 47%);
+    --marigold: hsl(39, 96%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --jet: hsl(0, 0%, 21%);
+    --light-gray: hsl(0, 0%, 83%);
+    --davys-gray: hsl(0, 0%, 30%);
+    /* 字体相关样式 */
+    --ff-wryh: "微软雅黑", sans-serif;
+    --fs-1: 7rem;
+    --fs-2: 4.2rem;
+    --fs-3: 3.8rem;
+    --fs-4: 3.6rem;
+    --fs-5: 3.4rem;
+    --fs-6: 3.2rem;
+    --fs-7: 3rem;
+    --fs-8: 2.4rem;
+    --fs-9: 2rem;
+    --fs-10: 1.8rem;
+    --fs-11: 1.4rem;
+    --fs-12: 1.2rem;
+    /* 间距 */
+    --section-padding: 100px;
+    /* 圆角 */
+    --radius-circle: 50%;
+    --radius-20: 20px;
+    --radius-15: 15px;
+    --radius-10: 10px;
+    /* 阴影 */
+    --shadow-1: 0 0 30px 4px hsla(0, 0%, 0%, 0.05);
+    --shadow-2: -1px 15px 26px -4px hsla(0, 5%, 61%, 0.15);
+    /* 过渡动画 */
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease;
+  }
+  
